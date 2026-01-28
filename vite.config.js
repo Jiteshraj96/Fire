@@ -3,6 +3,7 @@ import react from '@vitejs/plugin-react'
 
 // https://vite.dev/config/
 export default defineConfig({
-  base: '/fire/',
+  // GitHub Pages base path (repo नावानुसार case-sensitive असतो)
+  base: '/Fire/',
   plugins: [react()],
 })
