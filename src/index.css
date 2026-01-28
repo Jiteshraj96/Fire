@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* App baseline */
+html,
+body,
+#root {
+  height: 100%;
+}
+
+body {
+  @apply bg-slate-50 text-slate-900;
+}
+
+/* Small helpers for consistent inputs */
+.field-label {
+  @apply mb-1 block text-sm font-medium text-slate-700;
+}
+
+.field-hint {
+  @apply mt-1 text-xs text-slate-500;
+}
+
+.field-error {
+  @apply mt-1 text-xs text-red-600;
+}
